@@ -5,8 +5,6 @@ location=input('Enter city name : ')
 main_link="http://api.weatherstack.com/current?access_key="+creads.api+"&query="+location
 data=requests.get(main_link).json()
 
-# if data['cod']==404:
-#     print("Invalid name or Enter any other city")
 temp=(data['current']['temperature'])
 weth_des= data['current']['weather_descriptions']
 humid= data['current']['humidity']
