@@ -1,2 +1,2 @@
 # API
-Weather forecasting application
+Weather forecasting application news app
